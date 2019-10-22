@@ -158,7 +158,7 @@ namespace TrabajoClase1
             set
             {
                
-                if (value>(final*0.5))
+                while (value<(Subtotal*0.5))
                 {
                     Console.WriteLine("El anticipo debe ser mayor al 50% del valor a pagar");
                     Console.WriteLine("reingrese el anticipo");
